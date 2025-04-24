@@ -33,7 +33,7 @@ class AnswerResponse(BaseModel):
 @app.post("/ask", response_model=AnswerResponse)
 def answer_question(request: QuestionRequest):
     question = request.question
-    answer = get_answer_ollama(question)
+    answer = get_answer(question)
     return {"answer": answer}
 
 
