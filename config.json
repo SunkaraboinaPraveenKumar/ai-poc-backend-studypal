@@ -1,0 +1,6 @@
+{
+  "llm": {
+    "groq": ["gemma2-9b-it","llama-3.1-8b-instant","llama-3.3-70b-versatile"],
+    "ollama": ["gemma:2b","phi","deepseek-r1-1.5b"]
+  }
+}
